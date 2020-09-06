@@ -1,0 +1,124 @@
+
+body {
+
+	background: #e84a5f;
+}
+
+
+:root { --font-family-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.navbar {
+	  position: absolute;
+	  right: 100px;
+	  top: 100;
+	background-color: #e84a5f;
+  overflow: hidden;
+}
+  
+.navbar a {  float: center;
+  color: #333;
+  text-align: right;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a: hover{
+	background-color: #fabea7;
+  color: black;
+}
+
+.navbar a {
+	background-color: #0f0606;
+  color: white;
+}
+
+
+.navbar-right {
+
+  float: right;
+
+
+}
+
+.slider {
+
+	width: 60%;
+	margin: left;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+padding: 0%;
+width: 300%;
+animation: cambio 20s infinite alternate;
+animation-timing-function: linear;
+animation-fill-mode: forwards;
+
+}
+
+.slider li {
+	width: 100%;
+ list-style: none;
+}
+
+.slider img {
+ width: 100%;
+
+}
+
+/*animacion*/
+
+@keyframes cambio{
+
+0% { margin-left: 0;}
+20% {margin-left: 0;}
+
+25% { margin-left: -100%; }
+45% { margin-left: -100%; }
+
+50% { margin-left: -200%; }
+70% { margin-left: -200%; }
+
+/*75% { margin-left: -300%; }
+100% { margin-left: -300%; }*/
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  pointer-events: auto;
+  background-color: #da595f;
+  background-clip: padding-box;
+  border: 0 solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.75rem;
+  outline: 0;
+
+}
+
+
+.portfolio .portfolio-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.portfolio-modal .close {
+  position: absolute;
+  z-index: 1;
+  right: 1.5rem;
+  top: 5rem;
+  font-size: 3rem;
+  line-height: 3rem;
+  color: #1abc9c;
+  opacity: 1;
+}
+
