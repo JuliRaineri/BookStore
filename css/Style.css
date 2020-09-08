@@ -10,7 +10,7 @@ body {
 }
 
 .navbar {
-	  position: absolute;
+	  position: right;
 	  right: 100px;
 	  top: 100;
 	background-color: #e84a5f;
@@ -25,28 +25,21 @@ body {
   font-size: 17px;
 }
 
-.navbar a: hover{
-	background-color: #fabea7;
-  color: black;
-}
+.navbar1 {
 
-.navbar a {
-	background-color: #0f0606;
-  color: white;
-}
-
-
-.navbar-right {
-
-  float: right;
-
-
+  position: top;
+  right: 100px;
+    top: 50;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    background-color: #0f0606;
+  
 }
 
 .slider {
 
-	width: 60%;
-	margin: left;
+	width: 100%;
+	margin: absolute;
 	overflow: hidden;
 }
 
@@ -87,28 +80,30 @@ animation-fill-mode: forwards;
 100% { margin-left: -300%; }*/
 }
 
-.modal-content {
+
+
+/* .modal-content {
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   width: 50%;
-  pointer-events: auto;
-  background-color: #da595f;
+  pointer-events: painted;
+  background-color: #192b91;
   background-clip: padding-box;
-  border: 0 solid rgba(0, 0, 0, 0.1);
+  border: 0 solid rgba(119, 22, 22, 0.1);
   border-radius: 0.75rem;
-  outline: 0;
+  outline: 1;
 
-}
+} */
 
 
 .portfolio .portfolio-item {
-  cursor: pointer;
+  cursor: col-resize;
   position: relative;
   display: block;
   max-width: 25rem;
   border-radius: 0.5rem;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .portfolio-modal .close {
@@ -122,3 +117,8 @@ animation-fill-mode: forwards;
   opacity: 1;
 }
 
+*section {
+
+  position: absolute;
+  margin-block-end: 0rem;
+}
