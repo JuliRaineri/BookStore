@@ -82,19 +82,46 @@ animation-fill-mode: forwards;
 
 
 
-/* .modal-content {
+ .modal-content {
   position: relative;
   display: flex;
-  flex-direction: row-reverse;
-  width: 50%;
-  pointer-events: painted;
-  background-color: #192b91;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #aeb1c2;
   background-clip: padding-box;
   border: 0 solid rgba(119, 22, 22, 0.1);
   border-radius: 0.75rem;
   outline: 1;
 
-} */
+} 
+
+@media (prefers-reduced-motion: reduce) {
+  .modal.fade .modal-dialog {
+    transition: none;
+  }
+}
+
+.modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  border-bottom: 0 solid #dee2e6;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+.modal-title {
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 4rem 1rem;
+}
 
 
 .portfolio .portfolio-item {
