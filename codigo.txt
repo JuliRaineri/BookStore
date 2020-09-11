@@ -1,0 +1,29 @@
+<footer class="footer text-secondary" style="border-block: white;">
+            <div class="container col-sm-12 col-md-9 py-3 p-3  border">
+                <div class="row">
+                     Footer Location
+                    <div class="container py-4 p-3  border " style="background-color: black ;  ">
+                        <h4 class="text-uppercase mb-4 py-1"></h4>Estamos en</h4>
+                        <p class="lead mb-0">
+                            Juan B. Bustos 64
+                            <br />
+                            Cofico, Cordoba. 
+                            ©2020  Candida Libros.  <br> <p>Todos los derechos reservados del sitio. </p> 
+                            <p>Creado por Julieta Raineri</p>
+                        </p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    
+                    <!-- Footer About Text-->
+                    <div class="col-sm-12 col-md-12 py-3 p-3  border " style="background-color: black ; text-align: center; " >
+                        <h4 class="text-uppercase mb-4" style="border-block: white;">Acerca de esta pagina</h4>
+                        <p class="lead mb-0" style="border-block-width: 10px;">
+                            ©2020  Candida Libros.  <br> <p>Todos los derechos reservados del sitio. </p> 
+                            <p>Creado por Julieta Raineri</p>
+                           
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer> 

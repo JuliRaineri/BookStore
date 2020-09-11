@@ -59,7 +59,7 @@ animation-fill-mode: forwards;
 }
 
 .slider img {
- width: 100%;
+ width: 50%;
 
 }
 
@@ -144,8 +144,6 @@ animation-fill-mode: forwards;
   opacity: 1;
 }
 
-*section {
 
-  position: absolute;
-  margin-block-end: 0rem;
-}
+
+
